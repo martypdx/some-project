@@ -6,6 +6,9 @@ var pets = {
 		return options && options.allowDogs ? 
 			cats.concat( dogs ) : 
 			cats.slice() /*xyz*/;
+	},
+	feedPets(){
+		
 	}	
 };
 
